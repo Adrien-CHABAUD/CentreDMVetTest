@@ -1,0 +1,7 @@
+{
+  "name": "CentreDMVetTest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
