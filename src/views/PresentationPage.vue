@@ -1,16 +1,17 @@
 <template>
     <ion-page>
         <ion-content>
-            <h3 id="header_w">Welcome Back!</h3>
-            <h2 id="header_p">Please Log In</h2>
+            <h3 id="header_w">Welcome to</h3>
+            <h2 id="header_p">Sudoku Master</h2>
             <div class="form">
+                <ion-input type="text" placeholder="Name"></ion-input>
                 <ion-input type="email" placeholder="Email"></ion-input>
                 <ion-input type="password" placeholder="Password"></ion-input>
             </div>
             <div class="button">
-                <ion-button><router-link to="/presentation">Login</router-link></ion-button>
+                <ion-button>Sign Up</ion-button>
             </div>
-            <h3 id="footer"><router-link to="/signup">Don't have an account? <span id="signup">Sign Up</span></router-link></h3>
+            <h3 id="footer"><router-link to="/presentation">Already have an account? <span id="signup">Log In</span></router-link></h3>
         </ion-content>
     </ion-page>
 </template>
@@ -64,15 +65,15 @@ ion-button {
 
 #header_w{
     margin-top: 20vw;
-    margin-left: 20vw;
-    color: #fff;
-    font-size: 36px;
-}
-
-#header_p{
     margin-left: 30vw;
     color: #fff;
     font-size: 24px;
+}
+
+#header_p{
+    margin-left: 15vw;
+    color: #fff;
+    font-size: 36px;
 }
 
 #footer{
