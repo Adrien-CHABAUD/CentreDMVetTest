@@ -1,17 +1,13 @@
 <template>
     <ion-page>
         <ion-content>
-            <h3 id="header_w">Welcome to</h3>
-            <h2 id="header_p">Sudoku Master</h2>
-            <div class="form">
-                <ion-input type="text" placeholder="Name"></ion-input>
-                <ion-input type="email" placeholder="Email"></ion-input>
-                <ion-input type="password" placeholder="Password"></ion-input>
-            </div>
+            <p>  Sudoku is a logic-based, combinatorial number- placement puzzle. In classic Sudoku, the objective is to fill a
+9 × 9 grid with digits so that each column, each row, and each of the nine 3 × 3 subgrids that compose the grid (also called "boxes", "blocks", or "regions") contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a
+single solution.
+</p>
             <div class="button">
-                <ion-button>Sign Up</ion-button>
+                <ion-button>Let's Play</ion-button>
             </div>
-            <h3 id="footer"><router-link to="/presentation">Already have an account? <span id="signup">Log In</span></router-link></h3>
         </ion-content>
     </ion-page>
 </template>
@@ -33,16 +29,6 @@ ion-content{
     --background: #0681EE;
 }
 
-ion-input {
-        --background: #FFFF;
-        --padding-start: 33px;
-        height: 55px;
-        border-radius: 25px;
-        margin-bottom: 22px;
-        --placeholder-color: #535a61;
-        --color: #fff
-}
-
 ion-button {
     --background: #E06032;
     --border-radius: 30px;
@@ -52,47 +38,22 @@ ion-button {
     width:50vw;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-top: 50px;
     margin-left:50px
 }
 
-.form{
-    padding: 0 12vw;
-    margin-top: 70px;
-}
-
-#header_w{
-    margin-top: 20vw;
-    margin-left: 30vw;
-    color: #fff;
-    font-size: 24px;
-}
-
-#header_p{
-    margin-left: 15vw;
-    color: #fff;
-    font-size: 36px;
-}
-
-#footer{
-    color: #fff;
-    padding: 0 12vw;
-    margin-top:50px;
-    text-align:center;
-    font-size: 1.125rem;
-    font-weight:400
-}
-
-#signup {
-    font-size: 1.5rem;
-    color: #aeabab;
-    font-weight: 500;
-}
-
 a {
     text-decoration: none;
     color: inherit;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
 }
 </style>
