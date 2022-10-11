@@ -3,36 +3,18 @@
         <ion-content>
             <span id="span_l">Score: 0</span>
             <span id="span_r"> Timer: 1:00</span>
-            <ion-grid>
-                <ion-row class="ion-align-items-center">
-                    <ion-col>1</ion-col>
-                    <ion-col> 2</ion-col>
-                    <ion-col> 3</ion-col>
-                </ion-row>
-                <ion-row class="ion-align-items-center">
-                    <ion-col> 4</ion-col>
-                    <ion-col>5</ion-col>
-                    <ion-col> 6</ion-col>
-                </ion-row>
-                <ion-row class="ion-align-items-center">
-                    <ion-col>7 </ion-col>
-                    <ion-col>8 </ion-col>
-                    <ion-col> 9</ion-col>
-                </ion-row>
-            </ion-grid>
+            
         </ion-content>
     </ion-page>
   </template>
   
   <script>
-  import { IonContent, IonPage, IonGrid, IonRow} from '@ionic/vue';
+  import { IonContent, IonPage} from '@ionic/vue';
   
   export default{
     components: {
         IonContent,
-        IonPage,
-        IonGrid,
-        IonRow
+        IonPage
     }
   }
   
