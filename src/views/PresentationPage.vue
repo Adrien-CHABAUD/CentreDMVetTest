@@ -6,7 +6,7 @@
 single solution.
 </p>
             <div class="button">
-                <ion-button>Let's Play</ion-button>
+                <ion-button><router-link to="/game">Let's Play</router-link></ion-button>
             </div>
         </ion-content>
     </ion-page>
